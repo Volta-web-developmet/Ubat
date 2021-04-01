@@ -9,13 +9,13 @@
 
 -----------------------------------------------------------------------------------*/
 
-    /*-----------------------------------------------------------------------------------  
+    /*-----------------------------------------------------------------------------------
      CSS INDEX
     ===================
 
     1. Theme Default CSS (body, link color, section etc)
     2. Header Top Area
-    2.1 Header Bottom Area 
+    2.1 Header Bottom Area
     2.2. Sticky Header Area
     2.3. Mobile Menu Area
     3. Intro Area
@@ -98,32 +98,32 @@ h1, h2, h3, h4, h5, h6 {
 h1{
 	font-size: 48px;
 	line-height: 50px;
-		
+
 }
 h2{
 	font-size: 38px;
 	line-height: 46px;
-		
+
 }
 h3{
 	font-size: 30px;
 	line-height: 38px;
-		
+
 }
 h4{
 	font-size: 24px;
 	line-height: 34px;
-		
+
 }
 h5{
 	font-size: 20px;
 	line-height: 30px;
-		
+
 }
 h6{
 	font-size: 16px;
 	line-height: 28px;
-		
+
 }
 a {
 	transition: all 0.3s ease 0s;
@@ -182,10 +182,10 @@ input, select, textarea, input[type="text"], input[type="date"], input[type="url
 input:focus, textarea:focus, select:focus {
     outline: none;
 }
-div#preloader { 
+div#preloader {
 	position: fixed;
-	left: 0; 
-	top: 0; 
+	left: 0;
+	top: 0;
 	z-index: 99999;
 	width: 100%;
 	height: 100%;
@@ -247,7 +247,7 @@ div#preloader {
     margin-top: 50px;
 }
 .color{
-   color:#E6922E; 
+   color:#E6922E;
 }
 /*--------------------------------*/
 /*  2. Header top Area
@@ -301,7 +301,7 @@ div#preloader {
 	background: #E6922E;
 }
 /*----------------------------------------*/
-/*  2.1 Header Bottom Area 
+/*  2.1 Header Bottom Area
 /*----------------------------------------*/
 .header-one {
     position: absolute;
@@ -586,6 +586,15 @@ div#preloader {
 .title2 {
     font-size: 90px;
     line-height: 92px;
+    margin: 0px auto;
+    color: #fff;
+    padding-bottom: 20px;
+    max-width: 900px;
+    font-weight: 700;
+}
+.title3 {
+    font-size: 20px;
+    line-height: 32px;
     margin: 0px auto;
     color: #fff;
     padding-bottom: 20px;
@@ -915,7 +924,7 @@ span.users {
     display: inline-block;
     border-radius: 50%;
     margin-bottom: 30px;
-    background:#fff; 
+    background:#fff;
 }
 .proses-icon {
     position: relative;
@@ -992,7 +1001,7 @@ span.users {
   border-collapse: collapse;
   width: 100%;
 }
-.deposite-content td, 
+.deposite-content td,
 .deposite-content th {
   border: 1px solid #ccc;
   text-align: left;
@@ -1625,7 +1634,7 @@ span.users {
     margin-top: 30px;
 }
 
-.intro-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev, 
+.intro-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-prev,
 .intro-carousel.owl-carousel.owl-theme .owl-controls .owl-nav div.owl-next {
     color: #fff;
     font-size: 24px;
@@ -2179,7 +2188,7 @@ span.users {
     position: relative;
     margin: 0px 0px 20px;
 }
-.signup-page .login-image, 
+.signup-page .login-image,
 .signup-page .log-inner img {
     height: 100%;
     max-height: 588px;
@@ -2270,7 +2279,7 @@ span.users {
 .left-blog ul li span {
     display: inline-block;
     border: 1px solid #E6922E;
-    background:#E6922E; 
+    background:#E6922E;
     width: 24px;
     height: 24px;
     text-align: center;
@@ -2309,7 +2318,7 @@ span.users {
 }
 .left-blog .post-img a {
     display: block;
-    border:1px solid #fafafa; 
+    border:1px solid #fafafa;
 }
 .left-blog .post-img a img {
     border-radius: 4px;
@@ -2376,7 +2385,7 @@ span.users {
     margin: 20px 0 0px;
     border-radius: 4px;
 }
-.pagination>li>a, 
+.pagination>li>a,
 .pagination>li>span {
     position: relative;
     float: left;
@@ -2393,11 +2402,11 @@ span.users {
     display: inline-block;
     margin: 0px 3px 0px 0px;
 }
-.pagination>.active>a, 
-.pagination>.active>span, 
-.pagination>.active>a:hover, 
-.pagination>.active>span:hover, 
-.pagination>.active>a:focus, 
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
 .pagination>.active>span:focus{
     z-index: 3;
     color: #fff;
@@ -2433,7 +2442,7 @@ span.users {
     float: left;
     margin-right: 15px;
 	border-radius: 50%;
-	
+
 }
 .comments-list-img img {
     border-radius: 3px;
