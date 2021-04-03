@@ -303,6 +303,16 @@ div#preloader {
 /*----------------------------------------*/
 /*  2.1 Header Bottom Area
 /*----------------------------------------*/
+
+.logo_1 {
+
+    max-width: 67%;
+}
+
+.logo_2 {
+
+    max-width: 67%;
+}
 .header-one {
     position: absolute;
     top: 0;
@@ -505,7 +515,7 @@ div#preloader {
 /*  2.3. Mobile Menu Area
 /*----------------------------------------*/
 .mobile-menu-area {
-    background: #fdfcfc none repeat scroll 0 0;
+    background: #03989e none repeat scroll 0 0;
     padding: 10px 0px ;
 }
 .mean-container .mean-bar::after {
