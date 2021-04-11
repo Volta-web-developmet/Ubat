@@ -140,8 +140,12 @@ a:hover, a:focus {
     color: #3d5368;
     text-decoration: none;
 }
+.main_text{
+    color: #FFF;
+    font-size: 19pt;
+}
 body {
-	background: #fff none repeat scroll 0 0;
+	background: #03989e none repeat scroll 0 0;
 	color: #5d6471;
     font-family: 'Nunito', sans-serif;
 	font-size: 16px;
