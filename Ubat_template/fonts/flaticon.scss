@@ -1,0 +1,37 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?ebdb8edcc19f0076ce498247ae2f7636") format("truetype"),
+url("./flaticon.woff?ebdb8edcc19f0076ce498247ae2f7636") format("woff"),
+url("./flaticon.woff2?ebdb8edcc19f0076ce498247ae2f7636") format("woff2"),
+url("./flaticon.eot?ebdb8edcc19f0076ce498247ae2f7636#iefix") format("embedded-opentype"),
+url("./flaticon.svg?ebdb8edcc19f0076ce498247ae2f7636#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "dove": "\f101",
+    "flyboard": "\f102",
+    "silent": "\f103",
+);
+
+.flaticon-dove:before {
+    content: map-get($flaticon-map, "dove");
+}
+.flaticon-flyboard:before {
+    content: map-get($flaticon-map, "flyboard");
+}
+.flaticon-silent:before {
+    content: map-get($flaticon-map, "silent");
+}
