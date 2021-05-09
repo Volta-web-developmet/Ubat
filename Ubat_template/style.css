@@ -689,6 +689,13 @@ div#preloader {
     z-index: 1;
     position: relative;
 }
+.slide-area-un_menor {
+    background: url('img/Fondos/negro_nino_1.jpg') no-repeat scroll top center / cover;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: relative;
+}
 
 
 .slide-area::after {
@@ -732,6 +739,35 @@ div#preloader {
     max-width: 900px;
     font-weight: 700;
 }
+
+/* Un menor */
+
+  
+  .progress {
+    background: #03989e;
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 500px;
+  }
+  
+  .progress-value {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 30px;
+    width: 0;
+  }
+  
+  @keyframes load {
+    0% { width: 0; }
+    100% { width: 68%; }
+  }
 .ready-btn {
     border: 1px solid #E6922E;
     color: #fff;
