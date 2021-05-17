@@ -1,0 +1,97 @@
+<html>
+    <head>
+
+        <style>
+            body{
+  font-family: sans-serif;
+  background: #FBBC05;
+}
+
+a{
+  display:inline-block;
+  text-decoration: none;
+  color: black;
+  background-color: #4285F4;
+  padding: 10px;
+}
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 300ms ease-in;
+	-moz-transition: opacity 300ms ease-in;
+	transition: opacity 300ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	background: #34A855;
+	
+}
+
+.close {
+  padding: 0;
+	color:black;
+	line-height: 25px;
+	position: absolute;
+	right: 10px;
+	text-align: center;
+	top: 10px;
+	width: 24px;
+	text-decoration: none;
+  background:none;
+	font-weight: bold;
+}
+
+.close:hover { 
+color: #EA4436;
+}
+        </style>
+    </head>
+    <body>
+        <a href="#modal-1">Open Modal</a>
+<a href="#modal-2">Open Modal 2</a>
+<a href="#modal-3">Open Modal 3</a>
+
+<div id="modal-1" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">x</a>
+		<h2>Modal Box</h2>
+		<p>This is a sample modal box that can be created using the powers of CSS3.</p>
+		<p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+	</div>
+</div>
+<div id="modal-2" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">x</a>
+		<h2>Modal Box 2</h2>
+		<p>This is a sample modal box that can be created using the powers of CSS3.</p>
+		<p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+	</div>
+</div>
+<div id="modal-3" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">x</a>
+		<h2>Modal Box 3</h2>
+		<p>This is a sample modal box that can be created using the powers of CSS3.</p>
+		<p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+	</div>
+</div>
+    </body>
+</html>

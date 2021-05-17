@@ -752,7 +752,8 @@ div#preloader {
     padding: 0 5px;
     display: flex;
     height: 40px;
-    width: 500px;
+    width: 50%;
+    transform: translateX(50%);
   }
   
   .progress-value {
