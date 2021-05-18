@@ -32,7 +32,7 @@ a.meanmenu-reveal{display:none}
     margin-top: 5px;
     width: 28px;
 }
-.mean-container .mean-nav{float:left;width:100%;background:#fdfcfc;}
+.mean-container .mean-nav{float:left;width:100%;}
 .mean-container .mean-nav ul{padding:0;margin:0;width:100%;list-style-type:none}
 .mean-container .mean-nav ul li {
   background: #fdfcfc none repeat scroll 0 0;
