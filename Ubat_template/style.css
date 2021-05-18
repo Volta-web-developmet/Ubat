@@ -131,24 +131,24 @@ height:300px;
 overflow-y:scroll;
 
 }
-/* Sidebar- */ 
+/* Sidebar- */
 ::-webkit-scrollbar {
     width: 12px;
     height: 12px;
     }
-    
+
     ::-webkit-scrollbar-track {
     border: 1px solid #888;
     border-radius: 10px;
     }
-    
+
     ::-webkit-scrollbar-thumb {
-    background: #888;  
+    background: #888;
     border-radius: 10px;
     }
-    
+
     ::-webkit-scrollbar-thumb:hover {
-    background: #E6922E;  
+    background: #E6922E;
     }
 /*----------------------------------------*/
 /*  1.  Theme default CSS
@@ -323,7 +323,12 @@ div#preloader {
 	padding: 100px 0px 70px;
 }
 .page-padding {
-    padding: 130px 0px 100px;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+.padding2 {
+    padding-top: 0px;
+    padding-bottom: 20px;
 }
 .page-padding-2{
     padding: 130px 0px 70px;
@@ -739,10 +744,18 @@ div#preloader {
     max-width: 900px;
     font-weight: 700;
 }
-
+.title4 {
+    font-size: 65px;
+    line-height: 85px;
+    margin: 0px auto;
+    color: #fff;
+    padding-bottom: 20px;
+    max-width: 900px;
+    font-weight: 700;
+}
 /* Un menor */
 
-  
+
   .progress {
     background: #03989e;
     justify-content: flex-start;
@@ -754,8 +767,9 @@ div#preloader {
     height: 40px;
     width: 50%;
     transform: translateX(50%);
+    margin-bottom: 60px;
   }
-  
+
   .progress-value {
     animation: load 3s normal forwards;
     box-shadow: 0 10px 40px -10px #fff;
@@ -764,7 +778,7 @@ div#preloader {
     height: 30px;
     width: 0;
   }
-  
+
   @keyframes load {
     0% { width: 0; }
     100% { width: 68%; }
@@ -845,7 +859,7 @@ div#preloader {
 .card-circle{
     text-align:center;
      margin-top:50px;
-     background:#27496D;    
+     background:#27496D;
      border:10px solid transparent;
      color:#fff;
      Font-family: Montserrat;
@@ -870,12 +884,14 @@ div#preloader {
     background:transparent;
      border:1px solid #fff;
      text-transform:uppercase;
-     padding:5px 30px;    
+     padding:5px 30px;
      border-radius:0px;
      Font-weight:600;
 }
 .text_white{
     color: #FFF;
+    padding-bottom: 20px;
+
 }
 .card-circle .btn,.card-circle .card-icon i,.card-circle{
    transition: all ease-in-out 0.2s;
@@ -1715,7 +1731,8 @@ span.users {
     z-index: -1;
 }
 .footer-area {
-    padding: 100px 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 .footer-content{
     overflow: hidden;
@@ -1865,6 +1882,13 @@ span.users {
 }
 .copyright a {
     color: #E6922E;
+}
+.copyright {
+    text-align: center;
+}
+.text_black{
+  color: #151b2c;
+  padding-bottom: 40px;
 }
 /*----------------------------------------*/
 /*  15. Home 02 area
@@ -2040,7 +2064,8 @@ span.users {
     margin-bottom: 5px;
 }
 .about-content {
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 .about-details {
     overflow: hidden;
@@ -3067,7 +3092,9 @@ span.email-notes{
             transform: translate(0px, 0px) rotate(0deg);
   }
 }
-
+.home-text{
+  font-size: 20px;
+}
 /*--------------------------------*/
 /* .End CSS
 /*--------------------------------*/
