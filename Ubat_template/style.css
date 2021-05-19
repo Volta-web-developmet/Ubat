@@ -732,7 +732,7 @@ div#preloader {
     margin: 0px auto;
     color: #fff;
     padding-bottom: 20px;
-    max-width: 900px;
+    max-width: 1500px;
     font-weight: 700;
 }
 .title3 {
@@ -1037,16 +1037,21 @@ span.users {
     line-height: 40px;
 }
 .pri_table_list {
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
     padding: 40px;
     position: relative;
     overflow: hidden;
-    border: 1px solid #ffe0b2;
+    border: 2px solid #03989e;
     margin-bottom: 30px;
+    border-radius: 20px;
 }
 .pricing-text{
     padding: 10px 0px;
     display: block;
+}
+.padding_boyz {
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 .pri_table_list ol li {
     padding: 5px 0px;
@@ -1103,11 +1108,11 @@ span.users {
     z-index: 1;
     padding: 40px;
     overflow: hidden;
-    border-radius: 3px;
+    border-radius: 20px;
     transition: 0.4s;
     z-index: 1;
     margin-bottom: 30px;
-    border:1px solid #ffe0b2;
+
 }
 .support-services::after {
     position: absolute;
@@ -1123,15 +1128,16 @@ span.users {
 }
 .support-images {
     float: left;
-    font-size: 44px;
-    color: #ffe0b2;
+    font-size: 45px;
+    color: #03989e;
     line-height: 70px;
     width: 70px;
     height: 70px;
-    border: 1px solid #ffe0b2;
+    border: 2px solid #03989e;
     text-align: center;
     margin-right: 30px;
-    border-radius: 50%;
+    border-radius: 20%;
+
 }
 .support-content {
     padding-left: 100px;
@@ -1254,11 +1260,10 @@ span.users {
 /*  9.Payment History area
 /*----------------------------------------*/
 .payment-history-area {
-    background: url(img/background/bg3.jpg);
+    background-color: #30989e;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-    z-index: 1;
     position: relative;
     overflow: hidden;
 }
