@@ -51,6 +51,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
 /* Slideshow */
 
 * {box-sizing: border-box}
@@ -190,7 +192,7 @@ p {
     color: #5d6471;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 	margin: 0 0 15px;
 	color: #151b2c;
     font-weight: 600;
@@ -247,7 +249,7 @@ a:hover, a:focus {
 body {
 	background: #03989e none repeat scroll 0 0;
 	color: #5d6471;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 	font-size: 16px;
 	text-align: left;
 	overflow-x: hidden;
@@ -755,7 +757,9 @@ div#preloader {
 }
 /* Un menor */
 
-
+.menu-down{
+    margin-top: 3%;
+}
   .progress {
     background: #03989e;
     justify-content: flex-start;
@@ -1585,6 +1589,21 @@ span.users {
 .review-page-area .testi-img img {
     border: 1px solid #ffe0b2;
 }
+
+.fadein {
+    opacity: 0;
+    -moz-transition: opacity 1.5s;
+    -webkit-transition: opacity 1.5s;
+    -o-transition: opacity 1.5s;
+    transition: opacity 1.5s;
+}
+
+body.loaded .fadein {
+    opacity: 1;
+}
+*{
+    scroll-behavior: smooth !important;
+    }
 /*----------------------------------------*/
 /*  13. FAQ  Area
 /*----------------------------------------*/
@@ -1639,7 +1658,7 @@ span.users {
 .faq-details .panel-heading h4 a::before {
     color: #151b2c;
     content:"\e648 ";
-    font-family: themify;
+    font-family: flaticon !important;
     font-size: 16px;
     left:0px;
     line-height: 52px;
@@ -1651,8 +1670,8 @@ span.users {
 }
 .faq-details .panel-heading h4 a.active::before {
     color: #fff;
-    content: "\e64b";
-    font-family: themify;
+    content: "\e62a";
+    font-family: themify !important;
     font-size: 16px;
     left: 0px;
    line-height: 61px;
@@ -1861,7 +1880,7 @@ span.users {
     right: auto;
     top: 0px;
     left: 0;
-    font-family: themify;
+    font-family: flaticon !important;
     font-size: 12px;
 }
 .footer-list li a:hover{
@@ -2223,7 +2242,7 @@ span.users {
     left: 0px;
     top: 6px;
     content: "\e64c";
-    font-family: themify;
+    font-family: 'Noto Sans', sans-serif;
     width: 24px;
     height: 24px;
     line-height: 24px;
@@ -2592,7 +2611,7 @@ span.users {
     content: "\e649";
     right: 5px;
     top: 8px;
-    font-family: themify;
+    font-family: 'Noto Sans', sans-serif;
     color: #3d5368;
     font-size: 13px;
 }
