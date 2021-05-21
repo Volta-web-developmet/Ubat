@@ -126,7 +126,7 @@
 q {font-style: italic;}
 
 /* Add a blue color to the author */
-.author {color: #ffe0b2;}
+.author {color: #03989e;}
 
 .scrollable{
 height:300px;
@@ -140,12 +140,12 @@ overflow-y:scroll;
     }
 
     ::-webkit-scrollbar-track {
-    border: 1px solid #888;
+    border: 1px solid #ffe0b2;
     border-radius: 10px;
     }
 
     ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #ffe0b2;
     border-radius: 10px;
     }
 
@@ -354,7 +354,7 @@ div#preloader {
     max-width: 510px;
     margin: 0px auto;
 }
-.mar-row{
+.mar-w{
     margin-top: 50px;
 }
 .color{
@@ -734,6 +734,7 @@ div#preloader {
     margin: 0px auto;
     color: #fff;
     padding-bottom: 20px;
+    padding-top: 20px;
     max-width: 1500px;
     font-weight: 700;
 }
@@ -1041,7 +1042,7 @@ span.users {
     line-height: 40px;
 }
 .pri_table_list {
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
     padding: 40px;
     position: relative;
     overflow: hidden;
@@ -1790,14 +1791,14 @@ body.loaded .fadein {
     margin-right: 3px;
     width: 30px;
     height: 30px;
-    border: 1px solid #ffe0b2;
+    border: 1px solid #03989e;
     border-radius: 2px;
-    background: #ffe0b2;
+    background: #03989e;
     transition: 0.4s;
 }
 .footer-tags li a:hover,
 .footer-icons ul li a:hover{
-    color: #ffe0b2;
+    color: #03989e;
     background: #fff;
     transition: 0.4s;
 }
@@ -1823,7 +1824,7 @@ body.loaded .fadein {
     float: left;
 }
 .footer-contacts p span {
-    color: #ffe0b2;
+    color: #03989e;
     font-weight: 700;
 }
 .subs-feilds {
@@ -1895,17 +1896,17 @@ body.loaded .fadein {
 }
 .copyright-text a:hover{
 	text-decoration: underline;
-	color:#ffe0b2;
+	color:#03989e;
 }
 .copyright-text a {
-    color: #ffe0b2;
+    color: #03989e;
 }
 .copyright > p {
     margin-bottom: 0;
     color: #5d6471;
 }
 .copyright a {
-    color: #ffe0b2;
+    color: #03989e;
 }
 .copyright {
     text-align: center;
