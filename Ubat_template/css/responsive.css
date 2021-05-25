@@ -230,7 +230,7 @@
     width: 100%;
     padding: 40px 20px;
     margin-bottom: 30px;
-    min-width: 840px;
+    /*min-width: 840px;*/
 }
 .diposite-box h4 {
     font-size: 18px;
@@ -339,9 +339,9 @@ blockquote {
     width: 100%;
     overflow-x: scroll;
 }
-.deposite-table{
+/*.deposite-table{
    min-width: 800px;
-}
+}*/
 .intro-content {
     width: 100%;
     height: 100%;
@@ -429,7 +429,7 @@ blockquote {
 
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-.container {width:450px}
+.container {width:100%;}
 .digital-services {
     width: 50%;
     float: left;

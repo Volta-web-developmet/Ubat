@@ -66,7 +66,10 @@
 /* Slides */
 .mySlides {
   display: none;
-  padding: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+
   text-align: center;
 }
 
@@ -101,7 +104,7 @@
 /* The dot/bullet/indicator container */
 .dot-container {
     text-align: center;
-    padding: 20px;
+    padding: 5px;
     background: #ddd;
 }
 
@@ -129,7 +132,8 @@ q {font-style: italic;}
 .author {color: #03989e;}
 
 .scrollable{
-height:300px;
+height:400px;
+padding:20px;
 overflow-y:scroll;
 
 }
@@ -793,12 +797,22 @@ div#preloader {
 .title2 {
     font-size: 90px;
     line-height: 92px;
-    margin: 0px auto;
+    margin: 0px auto;ss
     color: #fff;
     padding-bottom: 20px;
     padding-top: 20px;
     max-width: 1500px;
     font-weight: 700;
+}
+.title5{
+    font-size: 35px;
+    line-height: 85px;
+    margin: 0px auto;
+    color: #03989e ;
+    padding-bottom: 20px;
+    max-width: 900px;
+    font-weight: 700;
+
 }
 .title3 {
     font-size: 20px;
@@ -2158,6 +2172,10 @@ body.loaded .fadein {
     overflow: hidden;
     display: block;
     padding-top: 10px;
+}
+mark{
+    background-color: white;
+    color: #03989e ;
 }
 .marker-list li {
     color: #777;
