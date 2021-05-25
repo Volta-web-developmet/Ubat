@@ -675,31 +675,93 @@ div#preloader {
 /*----------------------------------------*/
 /*  3. Intro Area
 /*----------------------------------------*/
+
+/* CSS for responsive iframe */
+/* ========================= */
+
+/* outer wrapper: set max-width & max-height; max-height greater than padding-bottom % will be ineffective and height will = padding-bottom % of max-width */
+#Iframe-Master-CC-and-Rs {
+    max-width: 512px;
+    max-height: 100%; 
+    overflow: hidden;
+  }
+  
+  /* inner wrapper: make responsive */
+  .responsive-wrapper {
+    position: relative;
+    height: 0;    /* gets height from padding-bottom */
+    
+    /* put following styles (necessary for overflow and scrolling handling on mobile devices) inline in .responsive-wrapper around iframe because not stable in CSS:
+      -webkit-overflow-scrolling: touch; overflow: auto; */
+    
+  }
+   
+  .responsive-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  
+  /* padding-bottom = h/w as % -- sets aspect ratio */
+  /* YouTube video aspect ratio */
+  .responsive-wrapper-wxh-572x612 {
+    padding-bottom: 107%;
+  }
+  
+  /* general styles */
+  /* ============== */
+  .set-border {
+    border: 5px inset #4f4f4f;
+  }
+  .set-box-shadow { 
+    -webkit-box-shadow: 4px 4px 14px #4f4f4f;
+    -moz-box-shadow: 4px 4px 14px #4f4f4f;
+    box-shadow: 4px 4px 14px #4f4f4f;
+  }
+  .set-padding {
+    padding: 40px;
+  }
+  .set-margin {
+    margin: 30px;
+  }
+  .center-block-horiz {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  
+  
 .slide-area {
     background: url('img/image2.jpg') no-repeat scroll top center / cover;
     width: 100%;
-    height: 100%;
+    height: 80%;
     z-index: 1;
     position: relative;
 }
 .slide-area-ubat {
-    background: url('img/image3.jpg') no-repeat scroll top center / cover;
+    background: url('img/nino3.jpg') no-repeat scroll top center / cover;
     width: 100%;
-    height: 100%;
+    height: 80%;
     z-index: 1;
     position: relative;
 }
 .slide-area-supervivientes {
     background: url('img/image4.jpg') no-repeat scroll top center / cover;
     width: 100%;
-    height: 100%;
+    height: 80%;
     z-index: 1;
     position: relative;
 }
 .slide-area-un_menor {
     background: url('img/Fondos/negro_nino_1.jpg') no-repeat scroll top center / cover;
     width: 100%;
-    height: 100%;
+    height: 80%;
     z-index: 1;
     position: relative;
 }
