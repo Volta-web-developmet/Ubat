@@ -805,8 +805,8 @@ div#preloader {
     font-weight: 700;
 }
 .title5{
-    font-size: 35px;
-    line-height: 85px;
+    font-size: 25px;
+    line-height: 35px;
     margin: 0px auto;
     color: #03989e ;
     padding-bottom: 20px;
@@ -1370,7 +1370,7 @@ span.users {
 .deposite-content th {
   border: 1px solid #ccc;
   text-align: left;
-  padding: 8px;
+  padding: 2px;
 }
 .deposite-content tr:nth-child(even) {
   background-color: #E9EBEC;
