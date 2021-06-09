@@ -809,8 +809,8 @@ div#preloader {
     font-weight: 700;
 }
 .title5{
-    font-size: 25px;
-    line-height: 35px;
+    font-size: 28px;
+    line-height: 44px;
     margin: 0px auto;
     color: #03989e ;
     padding-bottom: 20px;
@@ -1738,7 +1738,7 @@ body.loaded .fadein {
     color: #ffe0b2;
     font-size: 18px;
     margin-bottom: 0px;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     font-weight: 400;
 }
 .faq-details .panel-heading h4 a{
@@ -1756,6 +1756,9 @@ body.loaded .fadein {
     top:6px;
 	width: 50px;
     height: 100%;
+}
+.li_big_size{
+    font-size: 25px;
 }
 .faq-details .panel-heading h4 a.active::before {
     color: #fff;
