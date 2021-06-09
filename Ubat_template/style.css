@@ -773,6 +773,13 @@ div#preloader {
     z-index: 1;
     position: relative;
 }
+.slide-area-asi{
+    background: url('img/asi_foto.jpg') no-repeat scroll top center / cover;
+    width: 100%;
+    height: 80%;
+    z-index: 1;
+    position: relative;
+}
 
 
 .slide-area::after {
