@@ -715,6 +715,9 @@ div#preloader {
     padding: 0;
     border: none;
   }
+  .margin_3{
+      margin-top: 3%;
+  }
 
   /* padding-bottom = h/w as % -- sets aspect ratio */
   /* YouTube video aspect ratio */
@@ -746,7 +749,7 @@ div#preloader {
 
 
 .slide-area {
-    background: url('img/image2.jpg') no-repeat scroll top center / cover;
+    background: url('img/home_photo.jpg') no-repeat scroll top center / cover;
     width: 100%;
     height: 80%;
     z-index: 1;
@@ -774,7 +777,7 @@ div#preloader {
     position: relative;
 }
 .slide-area-asi{
-    background: url('img/asi_foto.jpg') no-repeat scroll top center / cover;
+    background: url('img/Asi_foto.jpg') no-repeat scroll top center / cover;
     width: 100%;
     height: 80%;
     z-index: 1;
@@ -830,6 +833,15 @@ div#preloader {
     line-height: 32px;
     margin: 0px auto;
     color: #fff;
+    padding-bottom: 20px;
+    max-width: 900px;
+    font-weight: 700;
+}
+.title3_b {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 0px auto;
+    color: #000;
     padding-bottom: 20px;
     max-width: 900px;
     font-weight: 700;
