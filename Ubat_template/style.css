@@ -1161,6 +1161,10 @@ span.users {
     padding: 10px 0px;
     display: block;
 }
+.pricing-text2{
+    padding: 17.8px 0px;
+    display: block;
+}
 .padding_boyz {
   padding-top: 10px;
   padding-bottom: 20px;
@@ -1254,6 +1258,9 @@ span.users {
 .support-content {
     padding-left: 100px;
 }
+.support-content2 {
+    padding-bottom: 30px;
+}
 .support-content h4 {
     font-size: 24px;
     text-transform: capitalize;
@@ -1265,6 +1272,12 @@ span.users {
 .support-services:hover::after {
     transition: 0.4s;
     opacity: 1;
+}
+.color123{
+  color: #ffe0b2;
+}
+.color1234{
+  color: #03989e;
 }
 .support-services:hover .support-images {
     transition: 0.4s;
@@ -2213,6 +2226,10 @@ body.loaded .fadein {
 }
 .about-content {
     margin-top: 10px;
+    margin-bottom: 30px;
+}
+.about-content2 {
+    margin-top: 70px;
     margin-bottom: 30px;
 }
 .about-details {
