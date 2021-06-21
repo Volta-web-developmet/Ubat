@@ -207,7 +207,7 @@ h1{
 
 }
 h2{
-	font-size: 38px;
+	font-size: 28px;
 	line-height: 46px;
 
 }
@@ -637,6 +637,10 @@ div#preloader {
 .mobile-menu-area {
     background: #03989e none repeat scroll 0 0;
     padding: 10px 0px ;
+    text-transform: capitalize;
+}
+.mobile-menu{
+    text-transform: capitalize;
 }
 .mean-container .mean-bar::after {
     content: "";
@@ -667,7 +671,7 @@ div#preloader {
     padding: 13px 10px;
     text-align: left;
     text-decoration: none;
-    text-transform: capitalize;
+    
     width: 90%;
 }
 .mean-nav ul li.mean-last {
@@ -1060,6 +1064,16 @@ div#preloader {
          margin-left:-20px;
          z-index:1;
     }
+}
+@media only screen and (max-width:800px){
+
+.title5{
+    font-size: 18px;
+    line-height: 30px;
+
+
+}
+
 }
 
 .counter-area{
