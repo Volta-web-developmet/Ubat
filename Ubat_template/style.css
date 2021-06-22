@@ -671,7 +671,7 @@ div#preloader {
     padding: 13px 10px;
     text-align: left;
     text-decoration: none;
-    
+
     width: 90%;
 }
 .mean-nav ul li.mean-last {
@@ -1175,7 +1175,7 @@ span.users {
     display: block;
 }
 .pricing-text2{
-    padding: 17.8px 0px;
+    padding: 5px 0px;
     display: block;
 }
 .padding_boyz {
@@ -1250,10 +1250,11 @@ span.users {
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(233,146,46,0.96);
+    background: #ffe0b2;
     transition: 0.4s;
     opacity: 0;
     z-index: -1;
+    color: black;
 }
 .support-images {
     float: left;
@@ -1268,11 +1269,12 @@ span.users {
     border-radius: 20%;
 
 }
-.support-content {
+.support-content3 {
     padding-left: 100px;
 }
 .support-content2 {
-    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-bottom: 78px;
 }
 .support-content h4 {
     font-size: 24px;
@@ -1284,6 +1286,7 @@ span.users {
 .support-services:hover::after {
     transition: 0.4s;
     opacity: 1;
+    color: black;
 }
 .color123{
   color: #ffe0b2;
@@ -1293,8 +1296,8 @@ span.users {
 }
 .support-services:hover .support-images {
     transition: 0.4s;
-    color: #fff;
-     border: 1px solid #fff;
+    color: #5d6471;
+     border: 2px solid #5d6471;
 }
 .support-services:hover .support-content h4, .support-services:hover .support-content p {
     color: #fff;
