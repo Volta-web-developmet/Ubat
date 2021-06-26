@@ -1805,6 +1805,9 @@ body.loaded .fadein {
     height: 100%;
 }
 .li_big_size{
+    font-size: 15px;
+}
+.li_big_size2{
     font-size: 20px;
 }
 .faq-details .panel-heading h4 a.active::before {
