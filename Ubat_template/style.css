@@ -1811,6 +1811,17 @@ body.loaded .fadein {
 .li_big_size2{
     font-size: 20px;
 }
+.section ul li {
+    display: list-item;
+}
+.bullets {
+}
+.bullets li {
+ list-style-type: circle;
+}
+.sectionmargin{
+  margin-left: 50px;
+}
 .faq-details .panel-heading h4 a.active::before {
     color: #fff;
     content: "\e62a";
